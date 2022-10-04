@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+  }
+  
+.Parent{
+    border: 5px solid red;
+    height: 100%;
+    display: flex;
+}
+
+.sse{
+    border: 2px solid black;
+    height: 8%;
+    width: 10%;
+}
+
+

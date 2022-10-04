@@ -1,0 +1,91 @@
+body{margin: 0; font-family: poppins;background:ghostwhite;}
+
+.main-job-post, footer{display: flex; justify-content: space-between;margin-top: 5em;}
+#devjobs{margin-left: 10em; color:white}
+.header{position:sticky;display: flex;}
+
+
+.main-body{background: white;padding:1em 1em; margin-top: 4em;}
+
+#country{color:rgb(73, 73, 174); font-size: 0.7em;}
+
+#position{font-weight: bolder; margin-bottom: 2em;}
+
+.body-container{max-width: 960px; margin-left: 20em;}
+
+.sub-header{display: flex; justify-content: space-between;background: white;}
+
+header{display: flex; justify-content: space-between;padding:2em;border-bottom-left-radius:100px;
+    background: rgb(113, 113, 244);}
+label{margin-top: 1em; margin-right: 5em;}
+.company{margin-left: 2em;margin-top: 1em;}
+#company-btn{width:120px; height:7vh;margin-right: 2em; background: rgb(252, 247, 247); font-family: poppins;
+    border: none;color: blue;font-weight: bolder;}
+#apply-btn{width:120px; height:7vh;margin-right: 2em; background: rgb(82, 82, 216); border: none;
+    font-family: poppins; color:white;font-weight: bolder;}
+
+    #apply-btn2{width:120px; height:7vh;margin-right: 2em; background: rgb(82, 82, 216); border: none;
+        font-family: poppins; color:white;font-weight: bolder;margin-top: 1em;}
+#scoot{font-weight: bolder;font-size: 1.2rem;}
+
+footer{background: white;padding: 0.8em 0.8em;}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: blue;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: white;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px gray;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+ 
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
